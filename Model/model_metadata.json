@@ -1,0 +1,24 @@
+{
+  "features": [
+    "GRE Score",
+    "TOEFL Score",
+    "University Rating",
+    "SOP",
+    "LOR",
+    "CGPA",
+    "Research"
+  ],
+  "target": "Chance of Admit",
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.02,
+    "max_depth": 2,
+    "n_estimators": 300,
+    "subsample": 0.8
+  },
+  "metrics": {
+    "MAE": 0.04315218285322189,
+    "RMSE": 0.0627190458327666,
+    "R2": 0.8076440728521919
+  }
+}
