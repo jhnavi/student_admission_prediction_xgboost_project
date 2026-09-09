@@ -1,0 +1,31 @@
+STUDENT ADMISSION PREDICTION — DEMO VIDEO SCRIPT (5–10 MINUTES)
+
+0:00–0:40 Introduction
+Explain the project goal and why admission chance is predicted.
+
+0:40–1:30 Problem Statement
+Explain the seven input features and that Chance of Admit is a continuous regression target.
+
+1:30–2:30 Dataset + EDA
+Show the CSV, target distribution, and CGPA relationship.
+
+2:30–3:30 Preprocessing
+Explain identifier removal, numeric validation, missing-value handling, and 80/20 split.
+
+3:30–4:30 XGBoost Model
+Explain XGBoost Regressor and 5-fold hyperparameter tuning.
+Test results: MAE=0.0427, RMSE=0.0628, R²=0.8071.
+
+4:30–6:30 Streamlit Demo
+Use example:
+GRE=320, TOEFL=105, University Rating=4, SOP=4.0, LOR=4.0, CGPA=8.8, Research=Yes.
+Click Predict Admission Probability and explain the percentage.
+
+6:30–7:30 Feature Importance
+Show the feature-importance chart and explain it as model behavior, not causation.
+
+7:30–8:30 Limitations
+Mention small historical dataset and that predictions are estimates.
+
+8:30–9:00 Conclusion
+Summarize the complete ML lifecycle from data to deployment.
